@@ -14,11 +14,11 @@ r = requests.get(url)
 
 # Email Push info from Work email to group
 def email():
-    gmail_user = 'jasonkocurau@gmail.com'
-    gmail_password = 'Mission83k'
+    gmail_user = "email"
+    gmail_password = 'pass'
 
     sent_from = gmail_user
-    to = [gmail_user, "Jason.Kocur@zovio.com", "9516751070@vtext.com" ]
+    to = [gmail_user" ]
     subject = "Check Instructure Status Page"
     body = "Status Change Indicated: http://status.instructure.com"
 
